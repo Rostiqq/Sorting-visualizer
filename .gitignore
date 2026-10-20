@@ -1,0 +1,33 @@
+# C++ / CMake build directories
+build/
+bin/
+out/
+cmake-build-*/
+.cache/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.vcxproj*
+*.sln
+*.user
+
+# CLion
+.idea/
+
+# Binaries & compiled artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+*.obj
+*.o
+*.pdb
+*.ilk
+
+# SFML local library folder (keep repo clean)
+SFML-*/
+
+# OS specific files
+Thumbs.db
+.DS_Store
